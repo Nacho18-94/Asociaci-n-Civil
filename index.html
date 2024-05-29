@@ -9,66 +9,106 @@
       src="https://kit.fontawesome.com/65dab4f643.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
+      <div class="navbar">
+        <ul class="links">
+          <li><a href="#inicio">Home</a></li>
+          <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+          <li><a href="#contacto">Contactos</a></li>
+        </ul>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="dropdown_menu">
+        <ul>
+          <li><a href="#inicio">Home</a></li>
+          <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+          <li><a href="#contacto">Contactos</a></li>
+        </ul>
+      </div>
     </header>
     <main>
       <picture>
-        <img src="./banner1.jpg" alt="">
+        <img src="./banner1.jpg" alt="" />
       </picture>
 
-      <section class="container">
+      <section class="container" id="inicio">
         <div class="grid-container">
+          <div class="grid-item">
+            <a href="#" class="fuente">
+              <i class="fa-solid fa-microchip"></i><br />
+              <h4>IA</h4>
+            </a>
+          </div>
           <div class="grid-item" id="btn-img2">
             <a href="#" class="fuente">
-              <i class="fa-solid fa-money-bill"></i><br><h4>MEDIOS DE PAGO</h4>
+              <i class="fa-solid fa-money-bill"></i><br />
+              <h4>MEDIOS DE PAGO</h4>
             </a>
           </div>
           <div class="grid-item" id="btn-img">
             <a href="#" class="fuente">
-              <i class="fa-regular fa-file"></i><br /><h4>TARIFAS VIGENTES </h4>
+              <i class="fa-regular fa-file"></i><br />
+              <h4>TARIFAS VIGENTES</h4>
             </a>
           </div>
           <div class="grid-item">
-            <a href="./solicitudes.html" class="fuente">
-              <i class="fa-solid fa-person-circle-question"></i
-              ><br /><h4>SOLICITUDES </h4>
+            <a href="./solicitudes.html" target="_blank" class="fuente">
+              <i class="fa-solid fa-person-circle-question"></i><br />
+              <h4>SOLICITUDES</h4>
             </a>
           </div>
           <div class="grid-item">
-            <a href="./denuncias.html" class="fuente">
-              <i class="fa-solid fa-shield-halved"></i><br /><h4>DENUNCIA ANÓNIMA DE
-              CONEXIÓN CLANDESTINA </h4>
-            
+            <a href="./denuncias.html" target="_blank" class="fuente">
+              <i class="fa-solid fa-shield-halved"></i><br />
+              <h4>DENUNCIA ANÓNIMA DE CONEXIÓN CLANDESTINA</h4>
+            </a>
           </div>
         </div>
-
         <div id="ctn-cover-img">
           <div class="ctn-img">
-            <div id="cerrar-img"><i class="fa-solid fa-xmark" id="btn-cerrar"></i></div>
-            <img src="./tarifas.jpeg" alt="" class="imagen">
+            <div id="cerrar-img">
+              <i class="fa-solid fa-xmark" id="btn-cerrar"></i>
+            </div>
+            <img src="./tarifas.jpeg" alt="" class="imagen" />
           </div>
         </div>
         <div id="ctn-cover-img2">
           <div class="ctn-img">
-            <div id="cerrar-img2"><i class="fa-solid fa-xmark" id="btn-cerrar"></i></div>
-            <img src="./formas de pago.png" alt="" class="imagen">
+            <div id="cerrar-img2">
+              <i class="fa-solid fa-xmark" id="btn-cerrar"></i>
+            </div>
+            <img src="./formasDePago.png" alt="" class="imagen" />
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contacto">
       <h3>CONTACTOS</h3>
       <ul class="social-icon">
         <li class="icon-elem">
-        <a href="" class="icon">Emergencias técnicas: 2635039313 <i class="fa-brands fa-whatsapp"></i></a>
+          <a href="" class="icon"
+            >Emergencias técnicas: 2635039313
+            <i class="fa-brands fa-whatsapp"></i
+          ></a>
         </li>
         <li class="icon-elem">
-        <a href="" class="icon">Contactos comerciales: 2634202522 <i class="fa-brands fa-whatsapp"></i></a>
+          <a href="" class="icon"
+            >Contactos comerciales: 2634202522
+            <i class="fa-brands fa-whatsapp"></i
+          ></a>
         </li>
       </ul>
     </footer>
