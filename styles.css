@@ -141,6 +141,7 @@ picture img {
   text-wrap: wrap;
   font-size: 3rem;
   width: 100%;
+  padding: 40px 0;
   flex-grow: grow 1;
   border: 1px solid;
 }
@@ -275,5 +276,14 @@ h3 {
 
   .btnLogin-popup {
     display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+  .grid-item {
+    padding: 50px;
   }
 }
