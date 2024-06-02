@@ -145,6 +145,9 @@ picture img {
   flex-grow: grow 1;
   border: 1px solid;
 }
+.grid-item i {
+  font-size: 40px;
+}
 .grid-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgb(18, 13, 51);
