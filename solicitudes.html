@@ -12,7 +12,7 @@
     />
   </head>
   <body>
-    <form class="form">
+    <form class="form" action="https://formspree.io/f/myzggdpr" method="POST">
       <h2 class="form_title">Contáctanos</h2>
       <div class="ratios">
         <p class="input_title">Solicitudes:</p>
@@ -20,8 +20,8 @@
           <input
             type="radio"
             class="form_ratio"
-            name="solicitud"
-            value="factura"
+            name="Solicitud:"
+            value="Solicitud de factura"
             id="solicitud-factura"
             checked
           />
@@ -31,8 +31,8 @@
           <input
             type="radio"
             class="form_ratio"
-            name="solicitud"
-            value="deuda"
+            name="Solicitud:"
+            value="Solicitud de deuda"
             id="solicitud-deuda"
           />
           <label for="solicitud-deuda">Solicitud de deuda</label>
@@ -41,8 +41,8 @@
           <input
             type="radio"
             class="form_ratio"
-            name="solicitud"
-            value="suministros"
+            name="Solicitud:"
+            value="Nuevos suministros"
             id="nuevos-suministros"
           />
           <label for="nuevos-suministros">Nuevos suministros</label>
@@ -51,8 +51,8 @@
           <input
             type="radio"
             class="form_ratio"
-            name="solicitud"
-            value="otros"
+            name="Solicitud:"
+            value="Otros"
             id="otros"
           />
           <label for="otros">Otros</label>
@@ -63,15 +63,18 @@
           type="text"
           class="form_input"
           placeholder="Titular del servicio:"
+          name="Titular del Servicio:"
         />
         <input
           type="number"
           class="form_input"
           placeholder="Número de WhatsApp:"
+          name="Número de WhatsApp:"
         />
         <textarea
           class="form_input form_input--message"
           placeholder="Mensaje:"
+          name="Mensaje:"
         ></textarea>
         <input type="submit" value="Enviar" class="form_cta" />
       </div>
